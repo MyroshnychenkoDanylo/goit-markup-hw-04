@@ -125,7 +125,6 @@ border-bottom: 1px solid #ECECEC;
    margin-left: auto;
 }
 
-
 .site-info .item + .item{
 margin-left: 40px;
 }
@@ -252,6 +251,34 @@ margin-bottom: 30px;
 .section .feature-text{
     flex-basis: calc((100%-90px)/4);
    }
+
+   .feature-text::before{
+   content: "";
+   display: block;
+   outline: 1px solid red;
+   height: 120px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: #F5F4FA;
+   } 
+
+.feature-text.icon-satellite::before{
+   background-image: url(../images/img2.1-min.jpg);
+}
+
+.feature-text.icon-clock{
+background-image: url();
+}
+
+.feature-text.icon-planning{
+   background-image: url();
+}
+.feature-text.icon-tech{
+   background-image: url();
+   
+}
+
 
 .section .feature-text:not(:last-child){
    margin-right: 30px;

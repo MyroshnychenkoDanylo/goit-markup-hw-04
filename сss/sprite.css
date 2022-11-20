@@ -1,0 +1,10 @@
+.header-envelop::before{
+    background-image: url(../images/swg/envelope.svg);
+   content: "";
+   display: block;
+   outline: 1px solid red;
+   height: 12px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
