@@ -15,7 +15,7 @@
    --hero-title-color:#FFFFFF;
    --main-bgcolor:#FFFFFF;
    --header-bgcolor:#FFFFFF;
-   --hero-section-bgcolor:#2F303A;
+   --hero-section-bgcolor:#C4C4C4;
    --info-section-bgcolor: #F5F5F5;
    --explain-section-bgcolor: #F5F5F5;
    --last-section-bgcolor: #F5F4FA;
@@ -205,6 +205,17 @@ padding-bottom: 200px;
 padding-top: 200px;
 }
 
+.section.hero{    
+   background-color: var(--hero-section-bgcolor);
+   background-image: url(../images/hero-bg.jpg), 
+   linear-gradient(to right, rgba(47, 48, 58, 0.4), 
+   rgba(47, 48, 58, 0.4));
+   height: 600px;
+   max-width: 1600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .hero-title{
 color: var(--hero-title-color);
 font-weight: 900;
@@ -212,7 +223,6 @@ font-size: 44px;
 line-height: 1.36;
 text-align: center;
 text-transform: uppercase;
-/* padding-top: 200px; */
 margin-bottom: 30px;
 }
 
