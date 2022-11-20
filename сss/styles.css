@@ -5,7 +5,7 @@
    --firspart-logo-header:#2196F3;
    --firspart-logo-footer:#2196F3;
    --secondpart-logo-header:#000000;
-   --secondpart-logo-footer:#FFFFFF;;
+   --secondpart-logo-footer:#FFFFFF;
    --add-color:#2196F3;
    --button-bgcolor:#2196F3;
    --button-active-bgcolor:#188CE8;;
@@ -249,7 +249,7 @@ margin-bottom: 30px;
 }
 
 .section .feature-text{
-    flex-basis: calc((100%-90px)/4);
+flex-basis: calc((100%-90px)/4);
    }
 
    .feature-text::before{
