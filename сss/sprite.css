@@ -35,3 +35,8 @@
     margin-right: 10px;
 }
 
+
+.section.team .links-team{
+    display: flex;
+    justify-content: center;}
+
