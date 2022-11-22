@@ -1,16 +1,8 @@
-/*.header-envelop::before{
-    background-image: url(../images/swg/envelope.svg);
-   content: "";
-   display: block;
-   outline: 1px solid red;
-   height: 12px;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-}*/
-
 :root{
 --add-color: #2196F3;
+--fill-social-network:#AFB1B8;
+--fill-social-network-hover:#FFFFFF;
+--background-social-network-hover: #2196F3;
 }
 
 .header-envelop,
@@ -53,7 +45,21 @@ width: 44px;
 .social-network{
     width: 100%;
     height: 100%;
-    display: block;
+    display: flex;
     border-radius: 50%;
-    background-color: teal;
+    justify-content: center;
+    align-items: center;
+    fill: var(--fill-social-network);
+    padding: 12px;
+}
+
+.social-network:hover,
+.social-network:focus{
+    fill: var(--fill-social-network-hover);
+    background-color: var(--background-social-network-hover);
+
+}
+.links-team{
+    margin-bottom: 30px;
+    margin-top: 16px;
 }
