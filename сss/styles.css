@@ -395,6 +395,10 @@ margin-right: 30px;
 .section.regular-customers{
    color: var(--tittle-text-color);
    text-align: center;
+  
+}
+
+.title-costomers{
    font-size: 36px;
    line-height: 1.16;
    letter-spacing: 0.03em;
