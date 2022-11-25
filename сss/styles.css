@@ -465,7 +465,8 @@ border: 1px solid var(--border-customers);
 border-radius: 4px;
 }
 
-.costomers-all .customers-hover:hover{
+.costomers-all .customers-hover:hover,
+.costomers-all .customers-hover:focus{
  fill: var(--fill-customers-hover);
 border: 1px solid var(--fill-customers-hover);
 border-radius: 4px;
